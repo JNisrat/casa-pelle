@@ -1,6 +1,6 @@
 import type { CartItem } from "./types";
 
-export const CART_STORAGE_KEY = "joey-cargo-cart";
+export const CART_STORAGE_KEY = "casa-pelle-cart";
 
 export function parsePrice(price: string): number {
   return Number(price.replace(/[^0-9.]/g, ""));

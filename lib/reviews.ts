@@ -1,7 +1,7 @@
 import { REVIEWS } from "./constants";
 import type { Review } from "./types";
 
-export const USER_REVIEWS_STORAGE_KEY = "joey-cargo-user-reviews";
+export const USER_REVIEWS_STORAGE_KEY = "casa-pelle-user-reviews";
 
 export type ReviewFormInput = {
   name: string;

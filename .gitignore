@@ -1,0 +1,11 @@
+node_modules
+.next
+.next-dev
+out
+coverage
+playwright-report
+test-results
+.DS_Store
+*.pem
+.env*.local
+public/images/*.mp4

@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@import "lenis/dist/lenis.css";
+
+:root {
+  --color-primary: #bb053a;
+  --color-muted: #8b8080;
+  --color-input-bg: rgba(217, 217, 217, 0.36);
+  --color-header-overlay: rgba(255, 255, 255, 0.19);
+  --color-footer-overlay: rgba(255, 255, 255, 0.65);
+  --font-serif: var(--font-inria-serif), serif;
+  --font-display: var(--font-playfair), serif;
+  --font-body: var(--font-instrument-sans), sans-serif;
+  --max-width: 1728px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #000000;
+  font-family: var(--font-body);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .create-sticky-parent,
+  .advantages-create-sticky-parent {
+    height: auto;
+  }
+
+  .create-sticky-panel,
+  .advantages-sticky-panel {
+    position: relative;
+  }
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.mt-6 {
+  margin-top: calc(var(--spacing) * 3);
+}
+
+.py-20 {
+  padding-block: calc(var(--spacing) * 20);
+}
+
+.bg-black {
+  background-color: #DDD5D5;
+}
+
+@media (width >= 64rem) {
+  .lg\:pb-12 {
+    padding-bottom: calc(var(--spacing) * 35);
+  }
+
+  .lg\:px-28 {
+    padding-inline: calc(var(--spacing) * 15);
+  }
+}
